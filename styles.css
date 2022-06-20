@@ -1,0 +1,107 @@
+body {
+  background-color: #202124;
+  font-family: "Open Sans";
+}
+
+form th {
+  color: #E8EAED;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+}
+
+form td {
+  color: #BDC1C6;
+  font-size: 13px;
+}
+
+#navBar {
+  text-align: right;
+}
+
+.link {
+  color: #E8EAED;
+  font-size: 13px;
+  text-decoration: None;
+  text-align: right;
+  padding: 10px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.centerDiv {
+  display: flex;
+  justify-content: center;
+}
+
+#logo {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+#textbox {
+  color: #E8EAED;
+  font-size: 16px;
+  background-color: #202124;
+  border: 1px solid #5F6368;
+  border-radius: 20px;
+  padding: 10px 20px;
+  width: 550px;
+}
+
+#textbox:hover, #textbox:focus {
+  background-color: #303134;
+  border: 1px solid #303134;
+  outline: none;
+}
+
+.textboxAdv {
+  color: #E8EAED;
+  font-size: 16px;
+  background-color: #202124;
+  border: 1px solid #5F6368;
+  padding: 8px 10px;
+  margin-right: 10px;
+  width: 400px;
+}
+
+.textboxAdv:focus, .textboxAdv:hover {
+  border: 1px solid #4386F4;
+  outline: none;
+}
+
+.button {
+  color: #E8EAED;
+  font-size: 15px;
+  background-color: #303134;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+  margin: 30px 5px 30px 5px;
+}
+
+.button:hover, .button:focus {
+  border: 1px solid #5F6368;
+  outline: none;
+}
+
+.buttonAdv {
+  color: #EBF0FB
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #8AB4F8;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  position: absolute;
+  left: 445px;
+  padding: 10px 20px 10px 20px;
+  margin: 10px 5px 0px 5px;
+}
+
+.buttonAdv:hover, .buttonAdv:focus {
+  background-color: #AECBFA;
+  border: 1px solid #4386F4;
+  outline: none;
+}
